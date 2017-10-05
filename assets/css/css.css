@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+input[type=text] {
+    border: none;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+}
+
+button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+span{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+button.number{
+  background-color: grey;
+  color: white;
+}
+button.sum{
+  background-color: #405230;
+  color: white;
+}
+button.sub{
+  background-color: #400406;
+  color: white;
+}
+button.mult{
+  background-color: #0B3142;
+  color: white;
+}
+button.div{
+  background-color: #84714F;
+  color: white;
+}
+
+h1{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.calculator{
+  max-width: 250px;
+  margin: auto;
+  width: 50%;
+}
+.display{
+  height: 50px;
+  width: 230px;
+  font-size: 16px;
+  margin: 4px;
+  padding-right: 5px;
+}
+
+.none {
+  color: white;
+  margin: -240px;
+}
+
+.error{
+  margin: -240px;
+  color: red;
+  font-weight: bold;
+}
+
+.number, .number_zero,.sign,.enter,.clear,.dot,.ans{
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  margin: 4px;
+}
+
+button.number{
+  background-color: grey;
+  color: white;
+}
+
+.number_zero{
+  width: 50px;
+}
+
+.enter{
+  width: 175px;
+}
+
+.lastForm{
+  margin: 4px;
+  display: block;
+  text-align: right;
+}
+
+.credits{
+  text-align: right;
+  font-size: 10px;
+  color: grey;
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 20px;
+}

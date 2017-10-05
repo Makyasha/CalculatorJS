@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../assets/css/css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+      <span id="lastForm" class="lastForm movetxt"></span>
+      <input id="display" class="display" type='text' />
+      <span id="error" class="none"> ! </span>
+      <div class="">
+        <button type="button" class="number" data-number="1">1</button>
+        <button type="button" class="number" data-number="2">2</button>
+        <button type="button" class="number" data-number="3">3</button>
+        <button type="button" class="sign sum" data-sign="+">+</button>
+      </div>
+      <div class="">
+        <button type="button" class="number" data-number="4">4</button>
+        <button type="button" class="number" data-number="5">5</button>
+        <button type="button" class="number" data-number="6">6</button>
+        <button type="button" class="sign sub" data-sign="-">-</button>
+      </div>
+      <div class="">
+        <button type="button" class="number" data-number="7">7</button>
+        <button type="button" class="number" data-number="8">8</button>
+        <button type="button" class="number" data-number="9">9</button>
+        <button type="button" class="sign mult" data-sign="*">*</button>
+      </div>
+      <div class="">
+        <button type="button" class="ans">Ans</button>
+        <button type="button" class="number number_zero" data-number="0">0</button>
+        <button type="button" class="dot" data-dot=".">.</button>
+        <button type="button" class="sign div" data-sign="/">/</button>
+      </div>
+      <div class="">
+        <button type="button" class="enter">Enter</button>
+        <button type="button" class="clear">C</button>
+      </div>
+      <div class="credits"> By Maria Sousa - 2017</div>
+    </div>
+
+
+  </body>
+
+  <script type="text/javascript" src="../assets/js/calculator.js"></script>
+
+</html>
